@@ -21,9 +21,8 @@ Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php
 ## Installation
 1 Download circDeep
 ```bash
-git clone https://github.com/UofLBioinformatics/seekCRIT.git
+git clone https://github.com/UofLBioinformatics/circDeep.git
 
-cd seekCRIT
 ```
 
 2 Install required packages
