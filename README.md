@@ -13,9 +13,9 @@ Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php
 
 - [gensim](https://anaconda.org/anaconda/gensim) 
 
-- [pysam](https://github.com/pysam-developers/pysam) >=0.9.1.4
+- [pysam](https://github.com/pysam-developers/pysam) >= 0.9.1.4
 
--[pybigwig](https://bioconda.github.io/recipes/pybigwig/README.html)
+- [pybigwig](https://bioconda.github.io/recipes/pybigwig/README.html)
 
 
 ## Usage
