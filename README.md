@@ -1,7 +1,7 @@
 # circDeep: End-to-End learning framework for circular RNA classification from other long non-coding RNA using multimodal deep learning
 circDeep fuse RCM descriptor, ACNN-BLSTM sequence descriptor and conservation descriptor into high level abstraction descriptors, where the shared representations across different modalities are integrated. The experiments show that circDeep is not only faster than existing tools but also performs at an unprecedented level of accuracy by achieving a 12 percent increase in accuracy over other existing tools.
 
-Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php), University of Louisville, [Kentucky Biomedical Research Infrastructure Network (KBRIN)](http://louisville.edu/research/kbrin/)
+Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php), [Kentucky Biomedical Research Infrastructure Network (KBRIN)](http://louisville.edu/research/kbrin/), University of Louisville
 
 ## Prerequisites
 
