@@ -71,5 +71,5 @@ Required arguments:
 
 ## License
 
-Copyright (C) 2017 .  See the [LICENSE](https://github.com/UofLBioinformatics/seekCRIT/blob/master/LICENSE)
+Copyright (C) 2017 .  See the [LICENSE](https://github.com/UofLBioinformatics/circDeep/blob/master/License)
 file for license rights and limitations (MIT).
