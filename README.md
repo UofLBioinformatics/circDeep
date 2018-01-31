@@ -5,17 +5,17 @@ Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php
 
 ## Prerequisites
 We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform. 
-- [Keras](https://github.com/antoniosehk/keras-tensorflow-windows-installation) (Deep learning library)
+- [Keras](https://anaconda.org/conda-forge/keras) (Deep learning library)
 
-- [scikit-learn](https://github.com/scikit-learn/scikit-learn) (Machine learning library)
+- [scikit-learn](https://anaconda.org/anaconda/scikit-learn) (Machine learning library)
 
-- [h5py](https://anaconda.org/conda-forge/h5py)
+- [h5py](https://anaconda.org/anaconda/h5py)
 
-- [gensim](https://anaconda.org/anaconda/gensim) 
+- [gensim](https://anaconda.org/anaconda/h5py) 
 
-- [pysam](https://github.com/pysam-developers/pysam) >= 0.9.1.4
+- [pysam](https://anaconda.org/bioconda/pysam) >= 0.9.1.4
 
-- [pybigwig](https://bioconda.github.io/recipes/pybigwig/README.html)
+- [pybigwig](https://anaconda.org/bioconda/pybigwig)
 
 
 ## Usage
