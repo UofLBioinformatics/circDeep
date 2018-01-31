@@ -5,9 +5,9 @@ Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php
 
 ## Prerequisites
 
-- [Keras](https://github.com/antoniosehk/keras-tensorflow-windows-installation)
+- [Keras](https://github.com/antoniosehk/keras-tensorflow-windows-installation) (Deep learning library)
 
-- [sklearn](https://github.com/scikit-learn/scikit-learn) 
+- [scikit-learn](https://github.com/scikit-learn/scikit-learn) (Machine learning library)
 
 - [h5py](https://anaconda.org/conda-forge/h5py)
 
