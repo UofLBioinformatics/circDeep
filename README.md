@@ -4,7 +4,7 @@ circDeep fuse RCM descriptor, ACNN-BLSTM sequence descriptor and conservation de
 Authors: [Bioinformatics Lab](http://bioinformatics.louisville.edu/lab/index.php), [Kentucky Biomedical Research Infrastructure Network (KBRIN)](http://louisville.edu/research/kbrin/), University of Louisville
 
 ## Prerequisites
-
+We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform. 
 - [Keras](https://github.com/antoniosehk/keras-tensorflow-windows-installation) (Deep learning library)
 
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) (Machine learning library)
