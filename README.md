@@ -17,6 +17,12 @@ We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform.
 
 - [pybigwig](https://anaconda.org/bioconda/pybigwig)
 
+## Installation
+Download circDeep by
+```bash 
+git clone https://github.com/UofLBioinformatics/circDeep
+```
+Installation has been tested in Anaconda (Linux/Windows) platform with Python3.
 
 ## Usage
 
