@@ -33,7 +33,7 @@ usage: circDeep.py [-h] --train TRAIN --genome GENOME -gtf GTF --bigwig BIGWIG
                [--positive_bed POSITIVE_BED] [--negative_bed NEGATIVE_BED] 
                [--testing_bed TESTING_BED] 
 
-ircular RNA classification from other long non-coding RNA using multimodal deep learning
+circular RNA classification from other long non-coding RNA using multimodal deep learning
 
 Required arguments:
 =================== 
