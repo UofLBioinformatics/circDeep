@@ -30,7 +30,7 @@ import argparse
 import timeit
 import re
 import pyBigWig
-import tempfile
+import tempfile 
 import sys
 import hashlib
 from multiprocessing import Process
