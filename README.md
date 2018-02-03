@@ -78,8 +78,9 @@ In our experiements, we have used [circular RNAs](https://raw.githubusercontent.
 python3 circDeep.py --data_dir 'data/' --train True --model_dir 'models/' --seq True --rcm True --cons True --genome 'data/hg38.fasta' --gtf 'data/Homo_sapiens.Ensembl.GRCh38.82.gtf' --bigwig 'data/hg38.phastCons20way.bw' --positive_bed 'data/circRNA_dataset.bed' --negative_bed 'data/negative_dataset.bed'
 ```
 #### Test the model:
-
-
+```bash
+python3 circDeep.py --data_dir 'data/' --train False --model_dir 'models/' --seq True --rcm True --cons True --genome 'data/hg38.fasta' --gtf 'data/Homo_sapiens.Ensembl.GRCh38.82.gtf' --bigwig 'data/hg38.phastCons20way.bw' --testing_bed 'data/test.bed'
+```
 ## License
 
 Copyright (C) 2017 .  See the [LICENSE](https://github.com/UofLBioinformatics/circDeep/blob/master/License)
