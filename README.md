@@ -69,7 +69,9 @@ Required arguments:
                         like:chromosome start end gene
 ```
 ## Example
-In our experiements, we have used [circular RNAs](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/circRNA_dataset.bed) from [circRNADb](http://202.195.183.4:8000/circrnadb/circRNADb.php) and our [negative dataset](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/negative_dataset.bed) from [GENCODE](https://www.gencodegenes.org/).
+In our experiements, we have used [circular RNAs](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/circRNA_dataset.bed) from [circRNADb](http://202.195.183.4:8000/circrnadb/circRNADb.php) and our [negative dataset](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/negative_dataset.bed) from [GENCODE](https://www.gencodegenes.org/). The original coordinates of our datasets were in hg19 genome and we convert them to hg38 genome using [liftOver](https://genome.ucsc.edu/cgi-bin/hgLiftOver) provided in [UCSC Genome Browser](https://genome.ucsc.edu/).
+
+
 
 
 ## License
