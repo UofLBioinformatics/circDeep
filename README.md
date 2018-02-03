@@ -68,6 +68,9 @@ Required arguments:
                         BED input file for testing data, it should be
                         like:chromosome start end gene
 ```
+## Example
+In our experiements, we have used [circular RNAs](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/circRNA_dataset.bed) from [circRNADb](http://202.195.183.4:8000/circrnadb/circRNADb.php) and our [negative dataset](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/negative_dataset.bed) from [GENCODE](https://www.gencodegenes.org/).
+
 
 ## License
 
