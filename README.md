@@ -69,9 +69,14 @@ Required arguments:
                         like:chromosome start end gene
 ```
 ## Example
-In our experiements, we have used [circular RNAs](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/circRNA_dataset.bed) from [circRNADb](http://202.195.183.4:8000/circrnadb/circRNADb.php) and our [negative dataset](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/negative_dataset.bed) from [GENCODE](https://www.gencodegenes.org/). The original coordinates of our datasets were in hg19 genome and we convert them to hg38 genome using [liftOver](https://genome.ucsc.edu/cgi-bin/hgLiftOver) provided in [UCSC Genome Browser](https://genome.ucsc.edu/).
-
-
+#### Train the model:
+In our experiements, we have used [circular RNAs](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/circRNA_dataset.bed) from [circRNADb](http://202.195.183.4:8000/circrnadb/circRNADb.php) and our [negative dataset](https://raw.githubusercontent.com/UofLBioinformatics/circDeep/master/data/negative_dataset.bed) from [GENCODE](https://www.gencodegenes.org/). The original coordinates of our datasets were in hg19 genome and we convert them to hg38 genome using [liftOver](https://genome.ucsc.edu/cgi-bin/hgLiftOver) provided in [UCSC Genome Browser](https://genome.ucsc.edu/). We need also to download all necessary files and put them in data directory.
+- Dowload genome sequence in FASTA format for human genome ( It can be downloaded from [UCSC Genome Browser](https://genome.ucsc.edu/))
+- Dowload [gtf annotation for human genome](ftp://ftp.ensembl.org/pub/release-91/gtf/homo_sapiens/).
+- Download [phastCons scores](http://hgdownload.cse.ucsc.edu/goldenpath/hg38/phastCons20way/) for the human genome in PhastCons format. 
+```bash
+python3 circDeep.py --data_dir 'data/' --train True --model_dir 'models/' --seq True --rcm True --cons True --genome 'data/hg38.fasta' --gtf 'data/Homo_sapiens.Ensembl.GRCh38.82.gtf' --bigwig 'data/hg38.phastCons20way.bw' --positive_bed 'data/circRNA_dataset.bed' --negative_bed 'data/negative_dataset.bed'
+```
 
 
 ## License
