@@ -83,8 +83,11 @@ python3 circDeep.py --data_dir 'data/' --train False --model_dir 'models/' --seq
 ```
 #### Note:
 Input data files for training and testing should be in bed format:
+
 chr17	17507350	17508308	+	gene1
+
 chr11	48014405	48015855	-	gene2
+
 chr17 77469161 77472770 - gene3
 ## License
 
