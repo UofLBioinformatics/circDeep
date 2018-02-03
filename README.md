@@ -38,7 +38,7 @@ circular RNA classification from other long non-coding RNA using multimodal deep
 Required arguments:
 =================== 
    --data_dir <data_directory>
-                        Under this directory, you will have descriptors files
+                        Under this directory, you will have descriptors files used for training, the label file, genome sequencefile , gtf annotation file and bigwig file
   --train TRAIN         use this option for training model
   --genome GENOME       Genome sequence. e.g., hg38.fa
   --gtf GTF             The gtf annotation file. e.g., hg38.gtf
@@ -77,6 +77,7 @@ In our experiements, we have used [circular RNAs](https://raw.githubusercontent.
 ```bash
 python3 circDeep.py --data_dir 'data/' --train True --model_dir 'models/' --seq True --rcm True --cons True --genome 'data/hg38.fasta' --gtf 'data/Homo_sapiens.Ensembl.GRCh38.82.gtf' --bigwig 'data/hg38.phastCons20way.bw' --positive_bed 'data/circRNA_dataset.bed' --negative_bed 'data/negative_dataset.bed'
 ```
+#### Test the model:
 
 
 ## License
