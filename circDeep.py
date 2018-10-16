@@ -46,6 +46,7 @@ import gensim, logging
 from keras.models import load_model
 from keras.layers import Concatenate
 
+
 def suffle_text(file_input, file_output):
     f = open(file_input)
     oo = open(file_output, 'w')
