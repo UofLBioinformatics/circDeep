@@ -10,7 +10,7 @@ We recommend to use [Anaconda 3](https://www.anaconda.com/download/) platform.
 
 - [h5py](https://anaconda.org/anaconda/h5py)
 
-- [gensim](https://anaconda.org/anaconda/h5py) 
+- [gensim](https://anaconda.org/anaconda/gensim) 
 
 - [pysam](https://anaconda.org/bioconda/pysam) >= 0.9.1.4
 
