@@ -1,5 +1,5 @@
 # circDeep: Deep learning approach for circular RNA classification from other long non-coding RNA 
-circDeep fuse Reverse Complement Matching (RCM) descriptor, Asymmetric Convolution Neural Network combined with Long Short Term Memory (ACNN-BLSTM) sequence descriptor and conservation descriptor into high level abstraction descriptors, where the shared representations across different modalities are integrated. The experiments show that circDeep is not only faster than existing tools but also performs at an unprecedented level of accuracy by achieving a 12 percent increase in accuracy over the existing tools.
+circDeep fuse Reverse Complement Matching (RCM) descriptor, Asymmetric Convolution Neural Network combined with Long Short Term Memory (ACNN-BLSTM) sequence descriptor and conservation descriptor into high level abstraction descriptors, where the shared representations across different modalities are integrated. The experiments show that circDeep is not only faster than existing tools but also performs at an unprecedented level of accuracy by achieving more than 12 percent increase in accuracy over the existing tools.
 
 
 ## Prerequisites
