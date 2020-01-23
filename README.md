@@ -92,3 +92,7 @@ chr17 77469161 77472770 - gene3
 
 Copyright (C) 2017 .  See the [LICENSE](https://github.com/UofLBioinformatics/circDeep/blob/master/License)
 file for license rights and limitations (MIT).
+
+## Citation
+
+Mohamed Chaabane, Robert M Williams, Austin T Stephens, Juw Won Park, circDeep: deep learning approach for circular RNA classification from other long non-coding RNA, Bioinformatics, Volume 36, Issue 1, 1 January 2020, Pages 73–80, https://doi.org/10.1093/bioinformatics/btz537
